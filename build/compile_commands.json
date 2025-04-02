@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/feniro/Downloads/laba5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/lab5.dir/main.cpp.o -c /home/feniro/Downloads/laba5/main.cpp",
+  "file": "/home/feniro/Downloads/laba5/main.cpp",
+  "output": "CMakeFiles/lab5.dir/main.cpp.o"
+}
+]
