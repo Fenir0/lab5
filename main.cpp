@@ -1,6 +1,6 @@
-#include "src/arythm.cpp"
-#include "src/try_example.cpp"
-#include "src/mod_arythm.cpp"
+#include "src/arythm.h"
+#include "src/try_example.h"
+#include "src/mod_arythm.h"
 
 #include<vector>
 #include<iostream>

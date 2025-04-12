@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/lab5.dir/main.cpp.o -o lab5 
+/usr/bin/g++ -g CMakeFiles/lab5.dir/main.cpp.o CMakeFiles/lab5.dir/src/arythm.cpp.o CMakeFiles/lab5.dir/src/mod_arythm.cpp.o CMakeFiles/lab5.dir/src/try_example.cpp.o -o lab5 

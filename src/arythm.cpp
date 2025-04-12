@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+
 void calculate2n(std::vector<int>& v, int n) {
     int buf = 0, cur = 0;
     for (int i = 1; i <= n; i++) {
@@ -16,7 +17,7 @@ void calculate2n(std::vector<int>& v, int n) {
         buf = 0;
     }
 }
-/** @brief returns (n!) */
+
 std::vector<int> factorial(int n){
     std::vector<int> v{ 1 }; // numbers are stored from least to most significant digits, e.g. 123 in v[j] is {3,2,1}
     int buf = 0, cur = 0;
@@ -38,7 +39,7 @@ std::vector<int> factorial(int n){
     }
     return v;
 }
-/** @brief returns 2**n */
+
 std::vector<int> pow2n(int n){
     std::vector<int> v{ 1 };
     int buf = 0, cur = 0;
@@ -58,7 +59,7 @@ std::vector<int> pow2n(int n){
     }
     return v;
 }
-/** @brief returns 2**n1 + 2**n2 */
+
 std::vector<int> pow2_sum(int n1, int n2){
     int buf = 0, cur;
     if (n1 < n2) std::swap(n1, n2);
@@ -75,7 +76,7 @@ std::vector<int> pow2_sum(int n1, int n2){
     if (buf > 0) v1.push_back(buf);
     return v1;
 }
-/** @brief returns 2**n1 - 2**n2 */
+
 std::vector<int> pow2_ext(int n1, int n2){
     int buf = 0, cur;
     std::vector<int> v1{ 1 }, v2{ 1 }, vres;
@@ -97,6 +98,7 @@ std::vector<int> pow2_ext(int n1, int n2){
     }
     return v1;
 }
+
 void sumv(std::vector<int>& v1, std::vector<int>& v2) {
     int a, buf = 0, cur;
     for (int i = 0; i < v2.size(); i++) {
@@ -108,7 +110,7 @@ void sumv(std::vector<int>& v1, std::vector<int>& v2) {
     }
     if (buf) v2.push_back(buf);
 }
-/** @brief returns Nth fibonacci number */
+
 std::vector<int> fibb_n(int n){
     int buf = 0, cur;
     if (n == 1) {

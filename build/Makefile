@@ -153,6 +153,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/arythm.o: src/arythm.cpp.o
+.PHONY : src/arythm.o
+
+# target to build an object file
+src/arythm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/arythm.cpp.o
+.PHONY : src/arythm.cpp.o
+
+src/arythm.i: src/arythm.cpp.i
+.PHONY : src/arythm.i
+
+# target to preprocess a source file
+src/arythm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/arythm.cpp.i
+.PHONY : src/arythm.cpp.i
+
+src/arythm.s: src/arythm.cpp.s
+.PHONY : src/arythm.s
+
+# target to generate assembly for a file
+src/arythm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/arythm.cpp.s
+.PHONY : src/arythm.cpp.s
+
+src/mod_arythm.o: src/mod_arythm.cpp.o
+.PHONY : src/mod_arythm.o
+
+# target to build an object file
+src/mod_arythm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/mod_arythm.cpp.o
+.PHONY : src/mod_arythm.cpp.o
+
+src/mod_arythm.i: src/mod_arythm.cpp.i
+.PHONY : src/mod_arythm.i
+
+# target to preprocess a source file
+src/mod_arythm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/mod_arythm.cpp.i
+.PHONY : src/mod_arythm.cpp.i
+
+src/mod_arythm.s: src/mod_arythm.cpp.s
+.PHONY : src/mod_arythm.s
+
+# target to generate assembly for a file
+src/mod_arythm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/mod_arythm.cpp.s
+.PHONY : src/mod_arythm.cpp.s
+
+src/try_example.o: src/try_example.cpp.o
+.PHONY : src/try_example.o
+
+# target to build an object file
+src/try_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/try_example.cpp.o
+.PHONY : src/try_example.cpp.o
+
+src/try_example.i: src/try_example.cpp.i
+.PHONY : src/try_example.i
+
+# target to preprocess a source file
+src/try_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/try_example.cpp.i
+.PHONY : src/try_example.cpp.i
+
+src/try_example.s: src/try_example.cpp.s
+.PHONY : src/try_example.s
+
+# target to generate assembly for a file
+src/try_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/try_example.cpp.s
+.PHONY : src/try_example.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/arythm.o"
+	@echo "... src/arythm.i"
+	@echo "... src/arythm.s"
+	@echo "... src/mod_arythm.o"
+	@echo "... src/mod_arythm.i"
+	@echo "... src/mod_arythm.s"
+	@echo "... src/try_example.o"
+	@echo "... src/try_example.i"
+	@echo "... src/try_example.s"
 .PHONY : help
 
 

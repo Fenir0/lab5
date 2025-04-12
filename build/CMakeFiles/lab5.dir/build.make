@@ -83,17 +83,65 @@ CMakeFiles/lab5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/feniro/Downloads/laba5/main.cpp -o CMakeFiles/lab5.dir/main.cpp.s
 
+CMakeFiles/lab5.dir/src/arythm.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/arythm.cpp.o: /home/feniro/Downloads/laba5/src/arythm.cpp
+CMakeFiles/lab5.dir/src/arythm.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/feniro/Downloads/laba5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab5.dir/src/arythm.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/arythm.cpp.o -MF CMakeFiles/lab5.dir/src/arythm.cpp.o.d -o CMakeFiles/lab5.dir/src/arythm.cpp.o -c /home/feniro/Downloads/laba5/src/arythm.cpp
+
+CMakeFiles/lab5.dir/src/arythm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/arythm.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/feniro/Downloads/laba5/src/arythm.cpp > CMakeFiles/lab5.dir/src/arythm.cpp.i
+
+CMakeFiles/lab5.dir/src/arythm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/arythm.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/feniro/Downloads/laba5/src/arythm.cpp -o CMakeFiles/lab5.dir/src/arythm.cpp.s
+
+CMakeFiles/lab5.dir/src/mod_arythm.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/mod_arythm.cpp.o: /home/feniro/Downloads/laba5/src/mod_arythm.cpp
+CMakeFiles/lab5.dir/src/mod_arythm.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/feniro/Downloads/laba5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab5.dir/src/mod_arythm.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/mod_arythm.cpp.o -MF CMakeFiles/lab5.dir/src/mod_arythm.cpp.o.d -o CMakeFiles/lab5.dir/src/mod_arythm.cpp.o -c /home/feniro/Downloads/laba5/src/mod_arythm.cpp
+
+CMakeFiles/lab5.dir/src/mod_arythm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/mod_arythm.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/feniro/Downloads/laba5/src/mod_arythm.cpp > CMakeFiles/lab5.dir/src/mod_arythm.cpp.i
+
+CMakeFiles/lab5.dir/src/mod_arythm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/mod_arythm.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/feniro/Downloads/laba5/src/mod_arythm.cpp -o CMakeFiles/lab5.dir/src/mod_arythm.cpp.s
+
+CMakeFiles/lab5.dir/src/try_example.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/try_example.cpp.o: /home/feniro/Downloads/laba5/src/try_example.cpp
+CMakeFiles/lab5.dir/src/try_example.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/feniro/Downloads/laba5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab5.dir/src/try_example.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/try_example.cpp.o -MF CMakeFiles/lab5.dir/src/try_example.cpp.o.d -o CMakeFiles/lab5.dir/src/try_example.cpp.o -c /home/feniro/Downloads/laba5/src/try_example.cpp
+
+CMakeFiles/lab5.dir/src/try_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/try_example.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/feniro/Downloads/laba5/src/try_example.cpp > CMakeFiles/lab5.dir/src/try_example.cpp.i
+
+CMakeFiles/lab5.dir/src/try_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/try_example.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/feniro/Downloads/laba5/src/try_example.cpp -o CMakeFiles/lab5.dir/src/try_example.cpp.s
+
 # Object files for target lab5
 lab5_OBJECTS = \
-"CMakeFiles/lab5.dir/main.cpp.o"
+"CMakeFiles/lab5.dir/main.cpp.o" \
+"CMakeFiles/lab5.dir/src/arythm.cpp.o" \
+"CMakeFiles/lab5.dir/src/mod_arythm.cpp.o" \
+"CMakeFiles/lab5.dir/src/try_example.cpp.o"
 
 # External object files for target lab5
 lab5_EXTERNAL_OBJECTS =
 
 lab5: CMakeFiles/lab5.dir/main.cpp.o
+lab5: CMakeFiles/lab5.dir/src/arythm.cpp.o
+lab5: CMakeFiles/lab5.dir/src/mod_arythm.cpp.o
+lab5: CMakeFiles/lab5.dir/src/try_example.cpp.o
 lab5: CMakeFiles/lab5.dir/build.make
 lab5: CMakeFiles/lab5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/feniro/Downloads/laba5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/feniro/Downloads/laba5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

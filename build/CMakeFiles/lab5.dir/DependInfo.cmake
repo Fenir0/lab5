@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/feniro/Downloads/laba5/main.cpp" "CMakeFiles/lab5.dir/main.cpp.o" "gcc" "CMakeFiles/lab5.dir/main.cpp.o.d"
+  "/home/feniro/Downloads/laba5/src/arythm.cpp" "CMakeFiles/lab5.dir/src/arythm.cpp.o" "gcc" "CMakeFiles/lab5.dir/src/arythm.cpp.o.d"
+  "/home/feniro/Downloads/laba5/src/mod_arythm.cpp" "CMakeFiles/lab5.dir/src/mod_arythm.cpp.o" "gcc" "CMakeFiles/lab5.dir/src/mod_arythm.cpp.o.d"
+  "/home/feniro/Downloads/laba5/src/try_example.cpp" "CMakeFiles/lab5.dir/src/try_example.cpp.o" "gcc" "CMakeFiles/lab5.dir/src/try_example.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

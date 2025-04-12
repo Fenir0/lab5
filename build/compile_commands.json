@@ -4,5 +4,23 @@
   "command": "/usr/bin/g++   -g -o CMakeFiles/lab5.dir/main.cpp.o -c /home/feniro/Downloads/laba5/main.cpp",
   "file": "/home/feniro/Downloads/laba5/main.cpp",
   "output": "CMakeFiles/lab5.dir/main.cpp.o"
+},
+{
+  "directory": "/home/feniro/Downloads/laba5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/lab5.dir/src/arythm.cpp.o -c /home/feniro/Downloads/laba5/src/arythm.cpp",
+  "file": "/home/feniro/Downloads/laba5/src/arythm.cpp",
+  "output": "CMakeFiles/lab5.dir/src/arythm.cpp.o"
+},
+{
+  "directory": "/home/feniro/Downloads/laba5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/lab5.dir/src/mod_arythm.cpp.o -c /home/feniro/Downloads/laba5/src/mod_arythm.cpp",
+  "file": "/home/feniro/Downloads/laba5/src/mod_arythm.cpp",
+  "output": "CMakeFiles/lab5.dir/src/mod_arythm.cpp.o"
+},
+{
+  "directory": "/home/feniro/Downloads/laba5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/lab5.dir/src/try_example.cpp.o -c /home/feniro/Downloads/laba5/src/try_example.cpp",
+  "file": "/home/feniro/Downloads/laba5/src/try_example.cpp",
+  "output": "CMakeFiles/lab5.dir/src/try_example.cpp.o"
 }
 ]
